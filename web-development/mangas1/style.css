@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:black;
+  color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:black;
+  padding: 10px 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 30px; 
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:orange;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links  {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.search-lang {
+  display: flex;
+  gap: 10px;
+}
+
+.search-lang input {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.search-lang select {
+  padding: 5px;
+}
+
+.banners {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.banners img {
+  width: 70%;
+  border-radius: 15px;
+}
+
+.updates {
+  padding: 20px;
+}
+
+.updates-row {
+  display: flex;
+  gap: 20px;
+}
+
+.update-card {
+  background-color:black;
+  border-radius: 6px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+.update-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.update-card p {
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color:black;
+  color:beige;
+  font-size:15px;
+}
